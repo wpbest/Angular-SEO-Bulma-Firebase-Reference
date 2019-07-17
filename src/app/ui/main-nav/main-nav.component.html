@@ -1,0 +1,21 @@
+<nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" routerLink="/">
+                <img src="assets/images/bulma.png" width="100px" alt="Angular SEO Bulma Firebase" /> Angular SEO Bulma Firebase
+            </a>
+    
+            <a id="navToggle" role="button" class="navbar-burger" (click)="toggleCollapse()" [ngClass]="{'is-active': show}">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+    
+        <div class="navbar-menu" [ngClass]="{'is-active': show}">
+            <div class="navbar-end">
+                <a class="navbar-item" routerLink="/login">
+                  Login
+                </a>
+        </div>
+        </div>
+    </nav>
