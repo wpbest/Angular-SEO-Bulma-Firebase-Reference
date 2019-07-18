@@ -11,8 +11,7 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
 
 import { environment } from '../environments/environment';
 
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { library } from '@fortawesome/fontawesome-svg-core';
+
 import { CoreModule } from './core/core.module';
 import { UiModule } from './ui/ui.module';
 
@@ -27,9 +26,12 @@ import { UiModule } from './ui/ui.module';
     AngularFirestoreModule, // firestore
     AngularFireAuthModule, // auth
     AngularFireStorageModule, // storage 
-    CoreModule, UiModule 
+    CoreModule, 
+    UiModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+
+ }
