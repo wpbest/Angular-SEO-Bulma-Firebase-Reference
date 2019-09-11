@@ -4,8 +4,6 @@ Angular Search Engine Optimisation Bulma Firebase Reference (ngseobulmafirebaser
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.1.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.3.
-
 ## Documentation
 
 [Node.js](https://nodejs.org/en/docs/)
@@ -20,7 +18,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 [AnguarFire](https://github.com/angular/angularfire2)
 
-[RxJS](http://reactivex.io/rxjs/)
+[RxJS](https://rxjs-dev.firebaseapp.com/)
 
 ## Install global packages: Angular CLI, Firebase Tools
 
@@ -145,7 +143,7 @@ Waiting for authentication...
 
 Select the google account and then Authorize it for firebase
 
-+  Success! Logged in as wpbest@gmail.com
++  Success! Logged in as ...
 
 firebase init
 
@@ -169,7 +167,6 @@ ces.
 
 You're about to initialize a Firebase project in this directory:
 
-  /Users/william.best/Documents/GitHub/ng8bulmatemplate
 
 ? Which Firebase CLI features do you want to set up for this folder? Press Space to select features, then Enter to confirm your choi
 ces. Firestore: Deploy rules and create indexes for Firestore, Functions: Configure and deploy Cloud Functions, Hosting: Configure a
