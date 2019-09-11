@@ -304,6 +304,16 @@ export class AppModule {
   }  
  }
 ```
+### Install NPM Check Update (NCU) and Check packages.json for outdated packages
+
+At times, the package.json file can get out of date from what is current. To check for outdated packages install npm-check-update, run ncu to see outdated packages, and then run ncu -u to update the packages.
+
+```
+npm install -g npm-check-updates
+ncu
+ncu -u
+npm install
+```
 
 ## Development server
 
